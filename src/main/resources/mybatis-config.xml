@@ -1,0 +1,13 @@
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 为了避免一直编写包全名，定义别名以方便引用Dept类，Admin类可查看代码 -->
+	<settings>
+	  <setting name="logImpl" value="STDOUT_LOGGING" />
+	</settings>
+	<typeAliases>
+	</typeAliases>
+
+
+</configuration>
